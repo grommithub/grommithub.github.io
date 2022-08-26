@@ -1,0 +1,110 @@
+@font-face {
+    font-family: monospaced;
+    src: url(../fonts/static/RobotoMono-Light.ttf) format("truetype");
+}
+
+body {
+    color: greenyellow;
+    background-color:rgb(40, 40, 40);
+    font-family: monospaced;
+    font-size: medium;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+}
+
+a {
+    color: yellow;
+}
+
+.landing {
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1000;
+}
+
+
+.introduction {
+    width: 100%;
+    text-align: center;
+}
+
+.content{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(32, 32, 32);
+}
+
+big {
+    font-size: x-large;
+    font-style: bold;
+}
+
+.introduction p {
+    padding: 2%;
+}
+
+
+.spacious li {
+    padding: 5%;
+    list-style: none;
+}
+
+.compact li, .compact {
+    padding: 1ch;
+}
+
+.content ul {
+    padding: 0;
+}
+
+.content li {
+    list-style: none;
+}
+
+.content li:nth-child(odd) {
+    background-color: rgb(28, 28, 28);
+}
+
+img {
+    margin: auto;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+}
+
+.project p, .project a {
+    padding: 2ch;
+}
+
+.compact p, .compact a {
+    padding: 0ch;
+}
+
+
+.project div {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: auto;
+}
+
+.project iframe {
+    flex-shrink: 0;
+}
+
+footer {
+    margin: auto;
+    padding: 50px;
+}
+
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
