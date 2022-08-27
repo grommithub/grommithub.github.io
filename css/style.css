@@ -59,17 +59,25 @@ big {
     padding: 1ch;
 }
 
+.compact li:nth-child(odd) {
+    background-color: rgb(28, 28, 28);
+}
+
 .content ul {
     padding: 0;
+}
+
+.content li:nth-child(odd){
+    background-color: rgb(28, 28, 28);
+}
+.content li:nth-child(even){
+    background-color: rgb(32, 32, 32);
 }
 
 .content li {
     list-style: none;
 }
 
-.content li:nth-child(odd) {
-    background-color: rgb(28, 28, 28);
-}
 
 img {
     margin: auto;
